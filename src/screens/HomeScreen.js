@@ -84,6 +84,9 @@ export default function HomeScreen() {
         iosVoiceId: 'com.apple.ttsbundle.Moira-compact',
         rate: 0.5,
       });
+      // add ElevenLabs logic here
+
+
     }
   }
 
@@ -156,6 +159,7 @@ export default function HomeScreen() {
               className="text-gray-700 font-semibold ml-1">
               Assistant
             </Text>
+            {/* This is the view containing all messages; We will need to hide this in the future */}
             <View style={{height: hp(58)}}
             className="bg-neutral-200 rounded-3xl p-4">
               <ScrollView
